@@ -1,0 +1,159 @@
+{
+    "core_tasks": [
+        {
+            "scenario": "It's midterm week. Your big exam for 'History of Magic Potions' is tomorrow morning.",
+            "responses": [
+                {
+                    "text": "Pull an all-nighter with five energy drinks.",
+                    "effect": { "energy": -25, "intelligence": 15, "social": 0 }
+                },
+                {
+                    "text": "Review your notes, then get a good night's sleep.",
+                    "effect": { "energy": 10, "intelligence": 10, "social": 0 }
+                },
+                {
+                    "text": "Form a last-minute study group with friends.",
+                    "effect": { "energy": -5, "intelligence": 5, "social": 10 }
+                }
+            ]
+        },
+        {
+            "scenario": "The biggest party of the semester is tonight, but your group project presentation is due tomorrow.",
+            "responses": [
+                {
+                    "text": "Go to the party! You can't miss this.",
+                    "effect": { "energy": -15, "intelligence": -10, "social": 25 }
+                },
+                {
+                    "text": "Try to do both: go for 'one hour' then work.",
+                    "effect": { "energy": -10, "intelligence": -5, "social": 10 }
+                },
+                {
+                    "text": "Skip the party and finish the project slides.",
+                    "effect": { "energy": -5, "intelligence": 15, "social": -5 }
+                }
+            ]
+        },
+        {
+            "scenario": "You've been invited to join the 'Genius Society', but their meetings conflict with your part-time job.",
+            "responses": [
+                {
+                    "text": "Join the society. The connections are worth it.",
+                    "effect": { "energy": -5, "intelligence": 15, "social": 10 }
+                },
+                {
+                    "text": "Keep the job. You need the money.",
+                    "effect": { "energy": -10, "intelligence": 0, "social": 0 }
+                },
+                {
+                    "text": "Try to negotiate a solution with your boss.",
+                    "effect": { "energy": -5, "intelligence": 5, "social": 5 }
+                }
+            ]
+        },
+        {
+            "scenario": "Your academic advisor suggests an internship, but it's unpaid and across town.",
+            "responses": [
+                {
+                    "text": "Take it. The experience is what matters.",
+                    "effect": { "energy": -15, "intelligence": 20, "social": 5 }
+                },
+                {
+                    "text": "Politely decline and look for a paid job.",
+                    "effect": { "energy": 0, "intelligence": 0, "social": 0 }
+                },
+                {
+                    "text": "Ask your advisor if they have any other leads.",
+                    "effect": { "energy": 0, "intelligence": 5, "social": 5 }
+                }
+            ]
+        }
+    ],
+    "side_tasks": [
+        {
+            "scenario": "Your roommate is... messy. Their side of the room is a biohazard.",
+            "responses": [
+                {
+                    "text": "Confront them directly about it.",
+                    "effect": { "energy": -5, "intelligence": 0, "social": -5 }
+                },
+                {
+                    "text": "Just clean it up yourself. It's not worth the fight.",
+                    "effect": { "energy": -10, "intelligence": 0, "social": 5 }
+                },
+                {
+                    "text": "Start stacking their stuff in front of their door.",
+                    "effect": { "energy": -5, "intelligence": 0, "social": -15 }
+                }
+            ]
+        },
+        {
+            "scenario": "You're out of dining hall credits and it's 3 weeks 'til the semester ends.",
+            "responses": [
+                {
+                    "text": "Survive on instant ramen and coffee.",
+                    "effect": { "energy": -20, "intelligence": 0, "social": 0 }
+                },
+                {
+                    "text": "Find an on-campus job at the dining hall.",
+                    "effect": { "energy": -10, "intelligence": 0, "social": 5 }
+                },
+                {
+                    "text": "'Visit' friends in other dorms around mealtime.",
+                    "effect": { "energy": 5, "intelligence": 0, "social": 10 }
+                }
+            ]
+        },
+        {
+            "scenario": "The club you joined wants you to hand out flyers in the freezing cold.",
+            "responses": [
+                {
+                    "text": "Do it. It's for a good cause.",
+                    "effect": { "energy": -10, "intelligence": 0, "social": 5 }
+                },
+                {
+                    "text": "Pretend you're sick and stay in your warm bed.",
+                    "effect": { "energy": 5, "intelligence": 0, "social": -5 }
+                },
+                {
+                    "text": "Offer to manage the club's social media instead.",
+                    "effect": { "energy": 0, "intelligence": 5, "social": 5 }
+                }
+            ]
+        },
+        {
+            "scenario": "You see an interesting lecture on 'The Physics of Time Travel' happening right now.",
+            "responses": [
+                {
+                    "text": "Go! This is why you're at college.",
+                    "effect": { "energy": -5, "intelligence": 15, "social": 0 }
+                },
+                {
+                    "text": "Check who the speaker is online first.",
+                    "effect": { "energy": 0, "intelligence": 5, "social": 0 }
+                },
+                {
+                    "text": "You'd rather take a nap.",
+                    "effect": { "energy": 15, "intelligence": -5, "social": 0 }
+                }
+            ]
+        },
+        {
+            "scenario": "A new coffee shop opened on campus offering free samples.",
+            "responses": [
+                {
+                    "text": "Get in line! You need the caffeine.",
+                    "effect": { "energy": 10, "intelligence": 0, "social": 0 }
+                },
+                {
+                    "text": "Meet up with some friends there.",
+                    "effect": { "energy": 5, "intelligence": 0, "social": 10 }
+                },
+                {
+                    "text": "You're trying to save money, even 'free' is a trap.",
+                    "effect": { "energy": 0, "intelligence": 0, "social": 0 }
+                }
+            ]
+        }
+    ]
+}

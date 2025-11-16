@@ -102,6 +102,7 @@
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"id":{"name":"rm_play","path":"rooms/rm_play/rm_play.yy",},},
     {"id":{"name":"menu_card_swap","path":"scripts/menu_card_swap/menu_card_swap.yy",},},
+    {"id":{"name":"task_manager","path":"scripts/task_manager/task_manager.yy",},},
     {"id":{"name":"transfer_stack","path":"scripts/transfer_stack/transfer_stack.yy",},},
     {"id":{"name":"seq_auto_complete_pop_up","path":"sequences/seq_auto_complete_pop_up/seq_auto_complete_pop_up.yy",},},
     {"id":{"name":"seq_nightnight","path":"sequences/seq_nightnight/seq_nightnight.yy",},},

@@ -1,12 +1,14 @@
 /// @description Initialise Variables and Function
 
+global.timer_manager = self;
+
 // Our timer, used for keeping track of how long the user is taking.
 timer = 0;
 
 // Our stats trackers
-intelligence = 0;
-social = 0;
-energy = 0;
+intelligence = 50;
+social = 50;
+energy = 50;
 
 // Our delay, used to add a delay between each carp lerping up to it's base at the top of the screen 
 // during our auto solve. Adds to the satisfaction.

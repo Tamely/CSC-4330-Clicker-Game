@@ -11,3 +11,7 @@ if !(global.pause)
 }
 
 last_second = get_timer()/1000000; 
+
+if (global.task_manager != undefined) {
+	global.task_manager.step_tasks();
+}

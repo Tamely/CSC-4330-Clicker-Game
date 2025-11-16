@@ -3,7 +3,7 @@
 event_inherited();
 
 // If we've been clicked
-if (obj_move_and_timer_manager.bool_solve)
+if (obj_timer_manager.bool_solve)
 {
 	// Update our clicked.
 	clicked = true;

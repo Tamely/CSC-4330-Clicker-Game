@@ -7,7 +7,7 @@ if (_collided) && (obj_mouse_manager.grabbed_card == self) && (number == 12) && 
 {
 	// Then transfer from our current stack, to the new one.
 	transfer_stack(stack,_collided,id);
-	obj_move_and_timer_manager.moves++;
+	obj_timer_manager.moves++;
 }
 
 // For card collisions we need a list, as we could be colliding with any number of cards.
@@ -33,7 +33,7 @@ if (_collided > 0) && (obj_mouse_manager.grabbed_card == self)
 			{
 				// Then transfer from our current stack, to the new one.
 				transfer_stack(stack,_card_list[| _i].stack,id);
-				obj_move_and_timer_manager.moves++;
+				obj_timer_manager.moves++;
 			}
 		}
 	}
@@ -50,7 +50,7 @@ if (_collided) && (obj_mouse_manager.grabbed_card == self) && (array_last(stack.
 	{
 		// Then transfer from our current stack, to the new one.
 		transfer_stack(stack,_collided,id);
-		obj_move_and_timer_manager.moves++;
+		obj_timer_manager.moves++;
 	}
 }
 
@@ -74,7 +74,7 @@ else
 		{
 			// Then transfer from our current stack, to the new one.
 			transfer_stack(stack,_base,id);
-			obj_move_and_timer_manager.moves++;
+			obj_timer_manager.moves++;
 		}
 	}
 }

@@ -34,10 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_auto_complete",
-    "path":"sprites/spr_auto_complete/spr_auto_complete.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
